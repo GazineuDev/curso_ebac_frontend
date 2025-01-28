@@ -1,13 +1,13 @@
-<HTML:5>
- <DOCTYPE html>
-    <html lang "pt-BR">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewpoint" content="width=device=width, inicial-scale=1.0">
-            <title> Formulário</title>
-        </head>
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+    </head>
         <H1> Formulário de cadastro </H1>
-        <body>
+    <body>
+        <form>
             <label for="nome">Nome Completo: </label>
             <input id="nome" type="text" placeholder="Ex. João da Silva Ribeiro" />
             <br />
@@ -17,9 +17,12 @@
             <label for="senha">Senha: </label>
             <input id="senha" type="password" />
             <br />
+            <input id="termos" type="checkbox" />
+            <label for="termos"> Aceito os termos</label>
+            <br />
             <button type="submit">
-                cadastrar
+            confirmar
             </button>
-        </body>
-    </html>
-</HTML:5>
+        </form>
+    </body>
+</html>
